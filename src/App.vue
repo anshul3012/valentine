@@ -88,12 +88,12 @@ function onYes() {
     <!-- Final Screen -->
     <div v-if="showFinal" class="final">
       <div class="heart">❤️</div>
-      <h1>Thank you for subscribing to my endless LOVE</h1>
+      <h1>You are now Anshul's FOREVER !!</h1>
     </div>
 
     <!-- Main Card -->
     <div v-else class="card">
-      <h1>Will you be my Valentine? 💘</h1>
+      <h1>Will you be my <span class="strike">Valentine</span> Forever? 💘</h1>
 
       <div class="buttons">
         <button class="yes" :style="{ transform: `scale(${yesScale})` }" @click="onYes">
@@ -131,6 +131,11 @@ function onYes() {
   border-radius: 26px;
   text-align: center;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+}
+
+.strike {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
 }
 
 .buttons {
