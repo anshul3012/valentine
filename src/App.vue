@@ -88,7 +88,7 @@ function onYes() {
     <!-- Final Screen -->
     <div v-if="showFinal" class="final">
       <div class="heart">❤️</div>
-      <h1>You are now Anshul's FOREVER !!</h1>
+      <h1>You are now MINE FOREVER !!</h1>
     </div>
 
     <!-- Main Card -->
