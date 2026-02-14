@@ -177,7 +177,7 @@ button {
   position: absolute;
   top: -10%;
   font-size: 1.8rem;
-  animation: fall 1.5 linear forwards;
+  animation: fall 1.5s linear forwards;
 }
 
 @keyframes fall {
