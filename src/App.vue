@@ -68,7 +68,7 @@ function onYes() {
   setTimeout(() => {
     showConfetti.value = false
     showFinal.value = true
-  }, 2800)
+  }, 1500)
 }
 </script>
 
@@ -177,7 +177,7 @@ button {
   position: absolute;
   top: -10%;
   font-size: 1.8rem;
-  animation: fall 2s linear forwards;
+  animation: fall 1.5 linear forwards;
 }
 
 @keyframes fall {
